@@ -8,12 +8,12 @@ public class Karakterskala {
 
 		for (int i = 1; i <= 10; i++) {
 			int poengsum = Integer.parseInt(showInputDialog("Skriv inn poengsum: "));
-			
-			if(poengsum < 0 || poengsum > 100) {
+
+			if (poengsum < 0 || poengsum > 100) {
 				showMessageDialog(null, "Error, ugylidg poengsum");
 				Integer.parseInt(showInputDialog("Skriv inn poengsum: "));
 			}
-			
+
 			if (poengsum <= 100 && poengsum >= 90) {
 				showMessageDialog(null, "A");
 			} else if (poengsum <= 89 && poengsum >= 80) {
@@ -26,7 +26,7 @@ public class Karakterskala {
 				showMessageDialog(null, "E");
 			} else if (poengsum <= 39 && poengsum >= 0) {
 				showMessageDialog(null, "F");
-			} 
+			}
 		}
 	}
 }
