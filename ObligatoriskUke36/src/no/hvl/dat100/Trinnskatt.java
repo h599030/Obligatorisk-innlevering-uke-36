@@ -14,7 +14,7 @@ public class Trinnskatt {
 		double trinnSats1 = 0.0093; // delt på 100 grunnet tall var oppgitt i prosent
 		double trinnSats2 = 0.0241;
 		double trinnSats3 = 0.1152;
-		double trinnSats4 = 0.1452;
+		double trinnSats4 = 0.1452; 
 
 		if (bruttoInntekt >= 0 && bruttoInntekt <= 164100) { // trinn 0
 			showMessageDialog(null, "Din trinnskatt er: " + inntekt * trinnSats0);

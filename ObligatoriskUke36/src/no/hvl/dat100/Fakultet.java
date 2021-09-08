@@ -13,7 +13,7 @@ public class Fakultet {
 
 		return svar;
 	}
-
+ 
 	public static void main(String[] args) {
 		int tall = Integer.parseInt(showInputDialog("Skriv inn tall: "));
 

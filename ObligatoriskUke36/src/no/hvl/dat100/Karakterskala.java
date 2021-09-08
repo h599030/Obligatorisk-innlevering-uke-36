@@ -13,7 +13,7 @@ public class Karakterskala {
 				showMessageDialog(null, "Error, ugylidg poengsum");
 				Integer.parseInt(showInputDialog("Skriv inn poengsum: "));
 			}
-
+ 
 			if (poengsum <= 100 && poengsum >= 90) {
 				showMessageDialog(null, "A");
 			} else if (poengsum <= 89 && poengsum >= 80) {
