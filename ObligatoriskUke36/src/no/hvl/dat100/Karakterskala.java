@@ -6,7 +6,7 @@ public class Karakterskala {
 
 	public static void main(String[] args) {
 
-		for (int i = 1; i <= 2; i++) {
+		for (int i = 1; i <= 10; i++) {
 			int poengsum = Integer.parseInt(showInputDialog("Skriv inn poengsum: "));
 			
 			if(poengsum < 0 || poengsum > 100) {
